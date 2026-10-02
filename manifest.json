@@ -1,22 +1,26 @@
 {
+  "id": "https://reviverstournament.blogspot.com/",
   "name": "Reviver Tournament",
   "short_name": "Reviver",
+  "description": "Reviver Tournament Free Fire Tournament App",
   "start_url": "https://reviverstournament.blogspot.com/",
-  "scope": "/",
+  "scope": "https://reviverstournament.blogspot.com/",
   "display": "standalone",
-  "background_color": "#0b0f19",
-  "theme_color": "#0b0f19",
+  "background_color": "#080d1b",
+  "theme_color": "#080d1b",
   "orientation": "portrait",
   "icons": [
     {
       "src": "https://rummon0.github.io/reviver-pwa/icon-192.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
       "src": "https://rummon0.github.io/reviver-pwa/icon-512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     }
   ]
 }
