@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Reviver Tournament</title>
+
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#0b0f19">
+
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+</head>
+
+<body style="background:#0b0f19;color:white;font-family:Arial;text-align:center;padding-top:100px;">
+
+  <h1>Reviver Tournament</h1>
+  <p>PWA Setup Successful ✅</p>
+
+  <script>
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("service-worker.js")
+        .then(() => console.log("Service Worker Registered"))
+        .catch(err => console.log(err));
+    }
+  </script>
+
+</body>
+</html>
